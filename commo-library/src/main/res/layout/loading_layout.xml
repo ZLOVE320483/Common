@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.lib.widget.LoadLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <android.support.v4.widget.Space
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:id="@+id/loading_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_loading_30_white_small"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/loading_text"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/s12"
+        android:layout_gravity="center_vertical"
+        android:text="@string/load_status_loading"/>
+
+    <android.support.v4.widget.Space
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"/>
+
+</com.github.lib.widget.LoadLayout>

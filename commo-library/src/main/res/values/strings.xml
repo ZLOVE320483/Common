@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">commo-library</string>
+
+    <string name="load_status_click_retry">加载失败，点击重试</string>
+    <string name="load_status_empty">空</string>
+    <string name="load_status_loading">内容加载中…</string>
+    <string name="load_status_error">加载失败，点击重试</string>
+    <string name="load_status_no_more">没有更多了~</string>
+</resources>
