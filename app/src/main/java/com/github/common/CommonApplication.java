@@ -1,15 +1,14 @@
 package com.github.common;
 
-import android.app.Application;
-
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.github.framework.util.AppProvider;
+import com.github.network.app.BaseApplication;
 
 /**
  * Created by zlove on 2018/1/17.
  */
 
-public class CommonApplication extends Application {
+public class CommonApplication extends BaseApplication {
 
     @Override
     public void onCreate() {
